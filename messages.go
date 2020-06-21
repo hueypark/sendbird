@@ -24,7 +24,7 @@ const (
 
 // Messages returns messages in channel
 func (sb *Sendbird) Messages(
-	channelType string,
+	channelType ChannelType,
 	channelURL string,
 	messageReadType MessageReadType,
 	messageReadVal int64,
@@ -56,7 +56,7 @@ func (sb *Sendbird) Messages(
 
 // SendMessage sends message.
 func (sb *Sendbird) SendMessage(
-	channelType string, channelURL string, userID string, message string,
+	channelType ChannelType, channelURL string, userID string, message string,
 ) (string, error) {
 	body := struct {
 		MessageType string `json:"message_type"`
