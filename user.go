@@ -6,6 +6,12 @@ import (
 	"strings"
 )
 
+// User represents a user.
+type User struct {
+	UserID   string `json:"user.user_id"`
+	Nickname string `json:"user.nickname"`
+}
+
 // CreateUser creates a user.
 func (sb *Sendbird) CreateUser(id string, nickname string) (string, error) {
 	body := struct {
