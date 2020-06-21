@@ -1,9 +1,7 @@
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
-github.com/hueypark/sendbird v0.0.0-20200620162815-345b7300359f h1:ZLB6aoV5mwEzLK7uKYz2D7W7hvgipc/dlD6cGGPxhQE=
-github.com/hueypark/sendbird v0.0.0-20200620162815-345b7300359f/go.mod h1:buUHgfbjSEN3Q3Tjb4/n2yeCEDcSwtzEXHxpd0akkKE=
-github.com/hueypark/sendbird v0.0.0-20200621011135-02faa2fd4128 h1:bnUBHJBiuOTNyaKkCEXGUGiRB5nxeG46mnOvrTS+/kc=
-github.com/hueypark/sendbird v0.0.0-20200621011135-02faa2fd4128/go.mod h1:buUHgfbjSEN3Q3Tjb4/n2yeCEDcSwtzEXHxpd0akkKE=
+github.com/hueypark/sendbird v0.0.0-20200621063556-0ebfa3fa44b1 h1:RgiKq+f6PwRnpHtPSkMdKjmIhg0MQt9b163t0niZ49w=
+github.com/hueypark/sendbird v0.0.0-20200621063556-0ebfa3fa44b1/go.mod h1:buUHgfbjSEN3Q3Tjb4/n2yeCEDcSwtzEXHxpd0akkKE=
 github.com/maxence-charriere/go-app/v6 v6.6.1 h1:IlKKK2g3OCcj+syoKYJAqwWD29gEnTVqhRXw5qQqwbw=
 github.com/maxence-charriere/go-app/v6 v6.6.1/go.mod h1:lndc83s6AlsH9LmLR5JsttRzSwUVqOOYi3e/Kd5FfTU=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
