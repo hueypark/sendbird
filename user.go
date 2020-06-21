@@ -8,8 +8,8 @@ import (
 
 // User represents a user.
 type User struct {
-	UserID   string `json:"user.user_id"`
-	Nickname string `json:"user.nickname"`
+	UserID   string `json:"user_id"`
+	Nickname string `json:"nickname"`
 }
 
 // CreateUser creates a user.
