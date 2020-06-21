@@ -9,21 +9,22 @@ import (
 
 // Message represents a message.
 type Message struct {
-	User    User   `json:"user"`
-	Message string `json:"message"`
+	User      User   `json:"user"`
+	Message   string `json:"message"`
+	MessageID int64  `json:"message_id"`
 }
 
 // Messages returns messages in channel
 func (sb *Sendbird) Messages(
-	channelType string, channelURL string, unixTimestamp int64,
+	channelType string, channelURL string, messageID int64,
 ) ([]Message, error) {
 	resp, err := sb.Request(
 		http.MethodGet,
 		fmt.Sprintf(
-			"/%s/%s/messages?message_ts=%v",
+			"/%s/%s/messages?message_id=%v",
 			channelType,
 			channelURL,
-			unixTimestamp*1000,
+			messageID,
 		),
 		nil)
 	if err != nil {
